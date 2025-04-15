@@ -1,0 +1,51 @@
+
+**** 04/15/25 18:49:27 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\pacom\Documents\Cours\2024-2025\TIPE\Circuit_Sim\tipe_1-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\pacom\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000u 0 0.000001 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TIPE_1
+R_R1         N14504 N14497  33 TC=0,0 
+V_V1         N14490 N14504 DC 0 AC 0
++SIN 0 5 50 0 0 0
+L_L1         N14490 N14497  20  TC=0,0 
+L_L2         N14569 0  50  TC=0,0 
+Kn_K1         L_L1 L_L2     1 Kbreak
+R_R2         N14576 N14569  1k TC=0,0 
+R_R3         0 N14576  1k TC=0,0 
+
+**** RESUMING bias.cir ****
+.END
+
+ERROR(ORPSIM-15142): Node N14504 is floating
+
+ERROR(ORPSIM-15142): Node N14497 is floating
+
+ERROR(ORPSIM-15142): Node N14490 is floating
+

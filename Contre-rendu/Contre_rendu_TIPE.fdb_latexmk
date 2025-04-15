@@ -1,9 +1,18 @@
 # Fdb version 4
-["pdflatex"] 1744668037.08405 "c:/Users/pacom/Documents/Cours/2024-2025/TIPE/Contre-rendu/Contre_rendu_TIPE.tex" "Contre_rendu_TIPE.pdf" "Contre_rendu_TIPE" 1744668038.93693 0
-  "Contre_rendu_TIPE.aux" 1744668038 2013 1dc18a0f7fbba4dc1b857ebe2ca498c1 "pdflatex"
-  "Contre_rendu_TIPE.tex" 1744668035 5874 e3ab7c02584a5e9d570c6a02479532de ""
-  "Contre_rendu_TIPE.toc" 1744668038 731 738cd40c12563d97be4201b3a46801c2 "pdflatex"
-  "c:/Users/pacom/Documents/Cours/2024-2025/TIPE/Contre-rendu/Contre_rendu_TIPE.tex" 1744668035 5874 e3ab7c02584a5e9d570c6a02479532de ""
+["bibtex Contre_rendu_TIPE"] 1744737698.51465 "Contre_rendu_TIPE.aux" "Contre_rendu_TIPE.bbl" "Contre_rendu_TIPE" 1744737737.99143 0
+  "./TIPE_Biblio.bib" 1744736272 20354 088d39c52da8ff5ec89b0b28080324e0 ""
+  "Contre_rendu_TIPE.aux" 1744737736 2706 fe0c33381e7e51e9060ed5e89ea0b8f9 "pdflatex"
+  "c:/texlive/2025/texmf-dist/bibtex/bst/base/plain.bst" 1744644004 20613 bd3fbfa9f64872b81ac57a0dd2ed855f ""
+  (generated)
+  "Contre_rendu_TIPE.bbl"
+  "Contre_rendu_TIPE.blg"
+  (rewritten before read)
+["pdflatex"] 1744737736.01296 "c:/Users/pacom/Documents/Cours/2024-2025/TIPE/Contre-rendu/Contre_rendu_TIPE.tex" "Contre_rendu_TIPE.pdf" "Contre_rendu_TIPE" 1744737737.99194 0
+  "Contre_rendu_TIPE.aux" 1744737736 2706 fe0c33381e7e51e9060ed5e89ea0b8f9 "pdflatex"
+  "Contre_rendu_TIPE.bbl" 1744737698 751 8d3d2c77495b9fbee2d5b19ef0429dcd "bibtex Contre_rendu_TIPE"
+  "Contre_rendu_TIPE.tex" 1744737735 7263 ce327f894265620466ea794a6c72be12 ""
+  "Contre_rendu_TIPE.toc" 1744737736 731 c47d32496cb9bc8fbdcee41d6d70e84c "pdflatex"
+  "c:/Users/pacom/Documents/Cours/2024-2025/TIPE/Contre-rendu/Contre_rendu_TIPE.tex" 1744737735 7263 ce327f894265620466ea794a6c72be12 ""
   "c:/texlive/2025/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1744644202 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2025/texmf-dist/fonts/map/fontname/texfonts.map" 1744644763 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2025/texmf-dist/fonts/tfm/jknappen/ec/ecbx1095.tfm" 1744644523 3584 21b378cca2e40816b0e6d74a4dc98f04 ""
@@ -78,6 +87,8 @@
   "c:/texlive/2025/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1744647191 5512713 d5293fe2524c042fff1d1aaaba621917 ""
   "c:/texlive/2025/texmf-var/web2c/pdftex/pdflatex.fmt" 1744647380 3346134 72b4d3e4368d923256b471f74c51c3a0 ""
   "c:/texlive/2025/texmf.cnf" 1744647164 713 e69b156964470283e0530f5060668171 ""
+  "figs/Circuit magnéto.png" 1742147660 42666 d3c703a12d0e85b93ae29a998d645408 ""
+  "figs/Circuit magnéto_V3.png" 1744737650 58178 fdcb85c3284c563df4c58a56ebf2f881 ""
   "figs/Cycle_base.png" 1744662741 6473 e97cc4063bbd8a4e297b7793e90f3a22 ""
   "figs/Hysteresiscurve.png" 1744660847 51812 ba752e77b84022e71ee49f42ee346e6e ""
   "figs/James_A_Ewing.jpg" 1744665590 18001 74fc6106c59c9a751b2ef5c424d2622a ""

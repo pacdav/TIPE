@@ -1,0 +1,116 @@
+
+**** 04/15/25 18:54:33 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\pacom\Documents\Cours\2024-2025\TIPE\Circuit_Sim\tipe_1-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "bias.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\pacom\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\24.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1000u 0 0.000001 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source TIPE_1
+R_R1         N14504 N14497  33 TC=0,0 
+V_V1         N14490 N14504 DC 0 AC 0
++SIN 0 5 50k 0 0 0
+L_L1         N14490 N14497  20  TC=0,0 
+L_L2         N14569 0  50  TC=0,0 
+Kn_K1         L_L1 L_L2     1 Kbreak
+R_R2         N14576 N14569  1k TC=0,0 
+R_R3         0 N14576  1k TC=0,0 
+R_R4         0 N14569  1k TC=0,0 
+R_R5         0 N14490  1k TC=0,0 
+
+**** RESUMING bias.cir ****
+.END
+
+**** 04/15/25 18:54:33 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\pacom\Documents\Cours\2024-2025\TIPE\Circuit_Sim\tipe_1-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     Ferromagnetic Core MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Kbreak          
+       LEVEL    2            
+        AREA     .65         
+        PATH    8            
+          MS    1.289600E+06 
+           A    2.712800E+03 
+           C     .25001      
+
+
+**** 04/15/25 18:54:33 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\pacom\Documents\Cours\2024-2025\TIPE\Circuit_Sim\tipe_1-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N14490)    0.0000 (N14497)    0.0000 (N14504)    0.0000 (N14569)    0.0000     
+
+(N14576)    0.0000 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V1         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 04/15/25 18:54:33 *** PSpice 24.1.0 (26 February 2025) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-bias"  [ C:\Users\pacom\Documents\Cours\2024-2025\TIPE\Circuit_Sim\tipe_1-pspicefiles\schematic1\bias.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .08
+

@@ -8,5 +8,5 @@
 \contentsline {subsection}{\numberline {2.2}Modèle de Bouc-Wen}{5}{}%
 \contentsline {section}{\numberline {3}Expérience}{5}{}%
 \contentsline {subsection}{\numberline {3.1}Matériaux ferromagnétiques}{5}{}%
-\contentsline {section}{\numberline {4}Comparaison}{5}{}%
-\contentsline {section}{\numberline {5}Conclusion}{5}{}%
+\contentsline {section}{\numberline {4}Comparaison}{6}{}%
+\contentsline {section}{\numberline {5}Conclusion}{6}{}%

@@ -1,0 +1,10 @@
+* source TIPE_1
+R_R1         N15244 N15276  10k TC=0,0 
+R_R2         N15306 N15244  1k TC=0,0 
+R_R3         0 N15608  30 TC=0,0 
+C_C1         N15244 N15276  1u  TC=0,0 
+L_L1         N15658 N15608  10uH  TC=0,0 
+L_L2         0 N15306  10uH  TC=0,0 
+X_U1         0 N15244 N15276 ALD1701/AL
+V_Oscillo+Push_pull         N15658 0 DC 0 AC 0
++SIN 0 10 5k 0 0 0

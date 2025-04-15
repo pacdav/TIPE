@@ -11,7 +11,7 @@
 
 \begin{document}
 
-\title{TIPE 2025 : Modélsiation d'hystérésis}
+\title{TIPE 2025 : Modélisation d'hystérésis}
 \author{Pacôme Daval \and Maxime Brun \and Paul Brunot}
 \date{\today}
 \maketitle
@@ -37,7 +37,7 @@ modèles préexistant et dans la mesure du possible comparer la modélisation av
 Avant tout, commençons par définir tous le vocabulaire qui va être utilisé en particulier ce qu'est un cycle d'hystérésis.
 Comme cela est défini dans le \textit{Dictionnaire de l'Académie Française} : 
 \begin{description}
-    \item[Hystérésis :] Phénomène qui s'observe dans les réactions élastiques ou magnétiques de certains corps et qui consiste en un retard de l'effet sur la cause.
+    \item[Hystérésis :] Phénomène qui s'observe dans les réactions élastiques ou magnétiques de certains corps et qui consiste en un retard de l'effet sur la cause. \cite{francaiseHysteresisDictionnaireLAcademie}
 \end{description}
 
 Ou globalement, l'évolution de l'état d'un système possède une dissymétrie en fonction de l'évolution d'une cause extérieure.
@@ -125,7 +125,36 @@ de les regrouper en deux grandes catégories :
 \section{Expérience}
 \subsection{Matériaux ferromagnétiques}
 
+Au cours de nos recherches, nous avons remarqué que à la base le phénomène d'hystérésis fut découvert avec les
+comportements des matériaux ferromagnétiques. Ainsi, nous avons décidé de commencé par une expériences montrant
+ce phénomène.
+
+Pour nous guider dans ces expériences, nous avons décidé de nous baser sur différentes présentations et article 
+parlant de cela. \cite{nahouliEtudeRealisationDun} \cite{prepasphysiqueTPAgregationPhysique2024} 
+
+Ainsi, nous avons réalisé ce circuit dans un premier temps :
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.5\textwidth]{Circuit magnéto.png}
+    \caption{1er circuit de mesure}
+    \label{fig:montage_experience}
+\end{figure}
+
+Cependant suite à quelques problèmes lors de premiers tests, le choix s'est porté sur l'utilisations
+d'un \textit{push-pull} à la place de l'alternostat pour alimenter notre circuit. Le choix de remplacer
+le condensateur qui servait comme intégrateur par un ALi a aussi été fait pour plus de précision. Nous
+avons donc réalisé ce montage :
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.7\textwidth]{Circuit magnéto_V3.png}
+    \caption{2ème circuit de mesure}
+    \label{fig:montage_experience_2}
+\end{figure}
+
 \section{Comparaison}
 
 \section{Conclusion}
+
+\bibliographystyle{plain}
+\bibliography{TIPE_Biblio.bib}
 \end{document}
